@@ -1,0 +1,13 @@
+.x-share-btn {
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 40px;
+  border-radius: 1dvh;
+  background-color: #1da1f2;
+}
