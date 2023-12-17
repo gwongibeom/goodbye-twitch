@@ -4,7 +4,8 @@ const TwitterShare = ({ timeLeft }) => {
   const { days, hours, minutes, seconds } = timeLeft
 
   const korStringTime = `${days}일 ${hours}시간 ${minutes}분 ${seconds}초`
-  const url = 'https://goodbye-twitch.gwon.us'
+  const url =
+    'https://goodbye-twitch.gwon.us?ref=twitter&utm_campaign=twitter&utm_source=twitter&utm_medium=referral'
   const textPara = `?text=%23굿바이트위치 %0A🕊️트위치 철수까지 남은시간: ${korStringTime} ${url}`
   const shareUrl = `https://twitter.com/intent/tweet${textPara}`
 
