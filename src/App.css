@@ -18,3 +18,13 @@
 .purpleText {
   color: #9146ff;
 }
+
+.madeBys {
+  margin: 1dvh;
+}
+.madeBy {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  margin: 1dvh;
+}

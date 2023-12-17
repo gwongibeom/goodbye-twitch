@@ -10,6 +10,17 @@ function App() {
       <img className='logo' src={logo} alt='로고' />
       <h2 className='purpleText'>트위치 한국 철수까지...</h2>
       <CountdownTimer targetDate={twitchDieDay.toISOString()} />
+      <div className='madeBys'>
+        <a className='madeBy' href='https://twitter.com/_ggbDev_'>
+          이거 만든 사람: 권기범
+        </a>
+        <a
+          className='madeBy'
+          href='https://github.com/gwongibeom/goodbye-twitch'
+        >
+          깃허브
+        </a>
+      </div>
     </div>
   )
 }
